@@ -30,11 +30,11 @@ export default function App() {
           </Stack.Group>
 
           <Stack.Group>
-            <Stack.Screen name="Splash Screen" component={Splash} options={{ navigationOptions: { headerShown: false } }} />
-            <Stack.Screen name="Menu principal" component={Menu} options={{ navigationOptions: { headerShown: false } }} />
-            <Stack.Screen name="Jeu" component={Jeu} options={{ navigationOptions: { headerShown: false } }} />
+            <Stack.Screen name="Splash Screen" component={Splash} options={{headerShown: false}} />
+            <Stack.Screen name="Menu principal" component={Menu} options={{headerShown: false}} />
+            <Stack.Screen name="Jeu" component={Jeu} options={{headerShown: false}} />
             <Stack.Screen name="High Scores" component={HighScores} />
-            <Stack.Screen name="Parametres" component={Settings} />
+            <Stack.Screen name="Paramètres" component={Settings} />
           </Stack.Group>
 
         </Stack.Navigator>

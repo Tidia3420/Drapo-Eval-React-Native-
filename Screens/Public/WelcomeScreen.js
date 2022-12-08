@@ -23,7 +23,7 @@ export default function WelcomeScreen({navigation}) {
     return (
         <View style={MyStylesheet.mainViewContainer}>
             <View style={[MyStylesheet.mainViewContainer, {flex:3}]}>
-                <Text style={MyStylesheet.mainTitle}>Drapo</Text>
+                <Text style={MyStylesheet.mainTitle}>Drapo!</Text>
                 <Text style={MyStylesheet.gochi}>Le jeu pour mettre à l'épreuve</Text>
                 <Text style={MyStylesheet.gochi}>vos connaissances en géographie!</Text>
             </View>
