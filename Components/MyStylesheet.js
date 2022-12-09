@@ -13,7 +13,8 @@ const MyStylesheet = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 30,
+    paddingVertical: 10,
+    backgroundColor:'rgba(255, 255, 255, 0)'
   },
   mainTitle: {
     fontFamily: 'GochiHand-Regular',
@@ -32,6 +33,7 @@ const MyStylesheet = StyleSheet.create({
     borderColor: 'black',
     borderStyle: 'solid',
     borderWidth: 2,
+    paddingHorizontal:20
   },
   listItem: {
     padding: 25
@@ -58,7 +60,7 @@ const MyStylesheet = StyleSheet.create({
   },
   flag: {
     width:300,
-    height:200,
+    height:150,
     marginBottom:30,
     resizeMode: 'contain'
   },
@@ -70,6 +72,7 @@ const MyStylesheet = StyleSheet.create({
   header: {
     flexDirection:"row",
     justifyContent: 'space-between',
+    paddingBottom:50,
   },
   gameInput: {
     width: 200,
@@ -79,6 +82,22 @@ const MyStylesheet = StyleSheet.create({
     borderStyle: 'solid',
     borderWidth: 2,
     paddingHorizontal:20,
+    marginTop:100,
+  },
+  settings: {
+    flexDirection:"row", 
+    justifyContent: 'center'
+  },
+  hintContainer: {
+    flex: 1, 
+    flexDirection: "row", 
+    justifyContent:"space-between", 
+    alignItems:'flex-end',
+    paddingHorizontal:30,
+    paddingVertical:5
+  },
+  hint: {
+    fontSize:18,
   }
 });
 

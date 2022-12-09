@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Drapo",
-    "slug": "Drapo",
+    "slug": "drapo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "adf2a128-cbd7-4657-a222-97e7100228e7"
+      }
+    },
+    "owner": "tidia"
   }
 }

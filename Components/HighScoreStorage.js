@@ -6,15 +6,12 @@ const storeHS = async (value) => {
     let existingValues = await getHS();
     if (existingValues) {
         existingValues.push(value);
-        existingValues.sort((a, b) => {
+        let highScores = existingValues.sort((a, b) => {
             return b.score - a.score;
         });
 
-        let highScores;
-        if (existingValues.length > 10) {
-            highScores = [...existingValues[9]]
-        } else {
-            highScores = existingValues;
+        if (highScores.length > 10) {
+            highScores = highScores.slice(0,9);
         }
 
         try {
