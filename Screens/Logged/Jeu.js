@@ -66,7 +66,7 @@ export default function Jeu({ route, navigation }) {
                         <CountdownCircleTimer
                             size={100}
                             isPlaying={countdown}
-                            duration={4}
+                            duration={15}
                             colors={['#004777', '#F7B801', '#A30000', '#A30000']}
                             colorsTime={[15, 10, 5, 0]}
                             onComplete={() => { setShowAnswer(true); setTimeout(() => { nextFlag() }, 3000) }}>
